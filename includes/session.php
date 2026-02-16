@@ -1,5 +1,6 @@
 <?php
 session_start();
+// 使用绝对路径
 require_once dirname(__DIR__) . '/config/database.php';
 
 function isLoggedIn() {

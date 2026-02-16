@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'crm_system';
 $username = 'root';
-$password = '';
+$password = 'admin';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);

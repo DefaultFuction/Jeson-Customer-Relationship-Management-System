@@ -56,6 +56,7 @@ $orders = $stmt->fetchAll();
                         <td>
                             <a href="view.php?id=<?php echo $order['id']; ?>">View</a>
                             <a href="edit.php?id=<?php echo $order['id']; ?>">Edit</a>
+                            <a href="delete.php?id=<?php echo $order['id']; ?>" onclick="return confirm('Are you sure you want to delete this order? This action cannot be undone.')" style="color: #dc3545;">Delete</a>
                         </td>
                     </tr>
                     <?php endforeach; ?>
