@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version">
 </div>
 
-## My  email
+## How can you contact me?(email)
 If you have any good suggestions or feedback on other issues, feel free to contact me anytime!
 My email is 2303473412@qq.com
 
