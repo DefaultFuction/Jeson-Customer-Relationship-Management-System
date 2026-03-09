@@ -24,7 +24,7 @@ switch($action) {
         break;
         
     case 'external_api':
-        $url = $_GET['url'] ?? 'https://api.example.com/data';
+        ##$url = $_GET['url'] ?? 'https://api.example.com/data';
         $response = sendCurlRequest($url);
         echo json_encode(['data' => $response]);
         break;
@@ -32,4 +32,5 @@ switch($action) {
     default:
         echo json_encode(['error' => 'Invalid action']);
 }
+
 ?>
